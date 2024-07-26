@@ -1,0 +1,247 @@
+[[redirects]] 
+from = /master 
+to = /upcoming/
+ 
+[[redirects]] 
+from = /configuration 
+to = /current/configuration/
+ 
+[[redirects]] 
+from = /faq 
+to = /current/faq/
+ 
+[[redirects]] 
+from = /getting-started 
+to = /current/getting-started/
+ 
+[[redirects]] 
+from = /java-api 
+to = /v3.0/java-api/
+ 
+[[redirects]] 
+from = /python-api 
+to = /v3.0/python-api/
+ 
+[[redirects]] 
+from = /spark-sql 
+to = /v3.0/spark-sql/
+ 
+[[redirects]] 
+from = /sparkR 
+to = /v3.0/r-api/
+ 
+[[redirects]] 
+from = /python/write-to-mongodb 
+to = /python-api/
+ 
+[[redirects]] 
+from = /python/read-from-mongodb 
+to = /python-api/
+ 
+[[redirects]] 
+from = /python/aggregation 
+to = /python-api/
+ 
+[[redirects]] 
+from = /python/filters-and-sql 
+to = /python-api/
+ 
+[[redirects]] 
+from = /scala/write-to-mongodb 
+to = /getting-started/
+ 
+[[redirects]] 
+from = /scala/read-from-mongodb 
+to = /getting-started/
+ 
+[[redirects]] 
+from = /scala/aggregation 
+to = /getting-started/
+ 
+[[redirects]] 
+from = /scala/datasets-and-sql 
+to = /spark-sql/
+ 
+[[redirects]] 
+from = /java/write-to-mongodb 
+to = /java-api/
+ 
+[[redirects]] 
+from = /java/read-from-mongodb 
+to = /java-api/
+ 
+[[redirects]] 
+from = /java/aggregation 
+to = /java-api/
+ 
+[[redirects]] 
+from = /java/datasets-and-sql 
+to = /java-api/
+ 
+[[redirects]] 
+from = /r/write-to-mongodb 
+to = /sparkR/
+ 
+[[redirects]] 
+from = /r/read-from-mongodb 
+to = /sparkR/
+ 
+[[redirects]] 
+from = /r/aggregation 
+to = /sparkR/
+ 
+[[redirects]] 
+from = /r/filters-and-sql 
+to = /sparkR/
+ 
+[[redirects]] 
+from = /scala-api 
+to = /getting-started/
+ 
+[[redirects]] 
+from = /r-api 
+to = /sparkR/
+ 
+[[redirects]] 
+from = /getting-started 
+to = /
+ 
+[[redirects]] 
+from = /spark-sql 
+to = /
+ 
+[[redirects]] 
+from = /sparkR 
+to = /r-api/
+ 
+[[redirects]] 
+from = /sparkR 
+to = /
+ 
+[[redirects]] 
+from = /release-notes 
+to = /
+ 
+[[redirects]] 
+from = /java-api 
+to = /
+ 
+[[redirects]] 
+from = /python-api 
+to = /
+ 
+[[redirects]] 
+from = /r-api 
+to = /
+ 
+[[redirects]] 
+from = /scala-api 
+to = /
+ 
+[[redirects]] 
+from = /python/filters-and-sql 
+to = /
+ 
+[[redirects]] 
+from = /r/filters-and-sql 
+to = /
+ 
+[[redirects]] 
+from = /scala/datasets-and-sql 
+to = /
+ 
+[[redirects]] 
+from = /java/datasets-and-sql 
+to = /
+ 
+[[redirects]] 
+from = /java/aggregation 
+to = /
+ 
+[[redirects]] 
+from = /r/aggregation 
+to = /
+ 
+[[redirects]] 
+from = /python/aggregation 
+to = /
+ 
+[[redirects]] 
+from = /scala/aggregation 
+to = /
+ 
+[[redirects]] 
+from = /scala/read-from-mongodb 
+to = /read-from-mongodb/
+ 
+[[redirects]] 
+from = /r/read-from-mongodb 
+to = /read-from-mongodb/
+ 
+[[redirects]] 
+from = /python/read-from-mongodb 
+to = /read-from-mongodb/
+ 
+[[redirects]] 
+from = /java/read-from-mongodb 
+to = /read-from-mongodb/
+ 
+[[redirects]] 
+from = /java/write-to-mongodb 
+to = /write-to-mongodb/
+ 
+[[redirects]] 
+from = /scala/write-to-mongodb 
+to = /write-to-mongodb/
+ 
+[[redirects]] 
+from = /r/write-to-mongodb 
+to = /write-to-mongodb/
+ 
+[[redirects]] 
+from = /python/write-to-mongodb 
+to = /write-to-mongodb/
+ 
+[[redirects]] 
+from = /scala/streaming 
+to = /structured-streaming/
+ 
+[[redirects]] 
+from = /configuration/write 
+to = /
+ 
+[[redirects]] 
+from = /configuration/read 
+to = /
+ 
+[[redirects]] 
+from = /write-to-mongodb 
+to = /
+ 
+[[redirects]] 
+from = /read-from-mongodb 
+to = /
+ 
+[[redirects]] 
+from = /structured-streaming 
+to = /
+ 
+[[redirects]] 
+from = /configuration/write 
+to = /batch-mode/batch-write-config/
+ 
+[[redirects]] 
+from = /configuration/read 
+to = /batch-mode/batch-read-config/
+ 
+[[redirects]] 
+from = /write-to-mongodb 
+to = /batch-mode/batch-write/
+ 
+[[redirects]] 
+from = /read-from-mongodb 
+to = /batch-mode/batch-read/
+ 
+[[redirects]] 
+from = /structured-streaming 
+to = /streaming-mode/
