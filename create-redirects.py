@@ -1,44 +1,58 @@
-SOURCE_FILENAME = "spark-connector.txt"
+import sys
+
+ ## name of the txt file to run script on, ex: "spark-connector.txt"
+SOURCE_FILENAME = sys.argv[1] 
+## base path for given propertydocs/spark-connector
+BASE = sys.argv[2] 
 SOURCE_FILE = './mut-redirects/'+SOURCE_FILENAME
 DESTINATION_FILE = "./netlify-redirects/netlify-"+SOURCE_FILENAME
-BASE = "docs/spark-connector"
+
+
 
 
 def transform(rule: str) -> str:
+    ##remove either the explicit prefix or the prefix representation from source path
+    if not rule.find(BASE) == -1:
+        rule = rule.split(BASE)[1]
+    elif not rule.find("${prefix}") == -1:
+        rule = rule.split("${prefix}")[1]
     # remove base if in rule
     if rule.startswith(" ${base}"):
         rule = rule.split(" ${base}")[1]
     # remove version if in path
     if rule.startswith("/${version}"):
         rule = rule.split("/${version}")[1]
-    ##add leading slash to rules
+
+    if not rule.startswith("/"):
+        rule = "/"+rule
     return rule
+
 
 def main() -> None:
     with open(SOURCE_FILE, "r") as f:
-        rules = [
-            (rule[0].split(None, 1)[1], rule[1])
-            ##split each line into origin and destination path
-            for rule in (line.split("->", 1) for line in f.read().split("\n"))
-            ##check that the line parsed is a redirect rule and not a symlink rule 
-            if len(rule) >1
-            if not rule[0].startswith("symlink")
-        ]
+        rules = []
+        comment = []
+        for line in f.read().split("\n"):
+            line.split("->", 1)
+            rule = line.split("->", 1)
+            if len(rule) >1: 
+                rules.append((rule[0].split(None, 1)[1], rule[1]))
+                comment.append("##"+line)
+                    
+
     output_rules = []
 
-    for rule_from, rule_to in rules[2:]:
-        if not rule_from.find(BASE) == -1:
-            rule_from = rule_from.split(BASE)[1]
-        elif not rule_from.find("${prefix}") == -1:
-            rule_from = rule_from.split("${prefix}")[1]
-        rule_from = transform(rule_from)
-        rule_to = transform(rule_to)
+    for index, rule in enumerate(rules):
+        ##transform source and destination paths
+        rule_from = transform(rule[0]) 
+        rule_to = transform(rule[1])
 
-        
-        output_rules.append("from = "+ rule_from + "\rto = "+ rule_to + "\r")
+        output_rules.append(comment[index] +"\n[[redirects]] \rfrom = "+ rule_from + "\rto = "+ rule_to + "\r\r")
+
+
 
     with open(DESTINATION_FILE, "w") as f:
-        f.write("[[redirects]] \r" + (" \r[[redirects]] \r").join(output_rules))
+        f.write("".join(output_rules))
 
 
 

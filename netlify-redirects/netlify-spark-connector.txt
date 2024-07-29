@@ -1,247 +1,66 @@
-[[redirects]] 
-from = /master 
-to = /upcoming/
- 
-[[redirects]] 
-from = /configuration 
-to = /current/configuration/
- 
-[[redirects]] 
-from = /faq 
-to = /current/faq/
- 
-[[redirects]] 
-from = /getting-started 
-to = /current/getting-started/
- 
-[[redirects]] 
-from = /java-api 
-to = /v3.0/java-api/
- 
-[[redirects]] 
-from = /python-api 
-to = /v3.0/python-api/
- 
-[[redirects]] 
-from = /spark-sql 
-to = /v3.0/spark-sql/
- 
-[[redirects]] 
-from = /sparkR 
-to = /v3.0/r-api/
- 
-[[redirects]] 
-from = /python/write-to-mongodb 
-to = /python-api/
- 
-[[redirects]] 
-from = /python/read-from-mongodb 
-to = /python-api/
- 
-[[redirects]] 
-from = /python/aggregation 
-to = /python-api/
- 
-[[redirects]] 
-from = /python/filters-and-sql 
-to = /python-api/
- 
-[[redirects]] 
-from = /scala/write-to-mongodb 
-to = /getting-started/
- 
-[[redirects]] 
-from = /scala/read-from-mongodb 
-to = /getting-started/
- 
-[[redirects]] 
-from = /scala/aggregation 
-to = /getting-started/
- 
-[[redirects]] 
-from = /scala/datasets-and-sql 
-to = /spark-sql/
- 
-[[redirects]] 
-from = /java/write-to-mongodb 
-to = /java-api/
- 
-[[redirects]] 
-from = /java/read-from-mongodb 
-to = /java-api/
- 
-[[redirects]] 
-from = /java/aggregation 
-to = /java-api/
- 
-[[redirects]] 
-from = /java/datasets-and-sql 
-to = /java-api/
- 
-[[redirects]] 
-from = /r/write-to-mongodb 
-to = /sparkR/
- 
-[[redirects]] 
-from = /r/read-from-mongodb 
-to = /sparkR/
- 
-[[redirects]] 
-from = /r/aggregation 
-to = /sparkR/
- 
-[[redirects]] 
-from = /r/filters-and-sql 
-to = /sparkR/
- 
-[[redirects]] 
-from = /scala-api 
-to = /getting-started/
- 
-[[redirects]] 
-from = /r-api 
-to = /sparkR/
- 
-[[redirects]] 
-from = /getting-started 
-to = /
- 
-[[redirects]] 
-from = /spark-sql 
-to = /
- 
-[[redirects]] 
-from = /sparkR 
-to = /r-api/
- 
-[[redirects]] 
-from = /sparkR 
-to = /
- 
-[[redirects]] 
-from = /release-notes 
-to = /
- 
-[[redirects]] 
-from = /java-api 
-to = /
- 
-[[redirects]] 
-from = /python-api 
-to = /
- 
-[[redirects]] 
-from = /r-api 
-to = /
- 
-[[redirects]] 
-from = /scala-api 
-to = /
- 
-[[redirects]] 
-from = /python/filters-and-sql 
-to = /
- 
-[[redirects]] 
-from = /r/filters-and-sql 
-to = /
- 
-[[redirects]] 
-from = /scala/datasets-and-sql 
-to = /
- 
-[[redirects]] 
-from = /java/datasets-and-sql 
-to = /
- 
-[[redirects]] 
-from = /java/aggregation 
-to = /
- 
-[[redirects]] 
-from = /r/aggregation 
-to = /
- 
-[[redirects]] 
-from = /python/aggregation 
-to = /
- 
-[[redirects]] 
-from = /scala/aggregation 
-to = /
- 
-[[redirects]] 
-from = /scala/read-from-mongodb 
-to = /read-from-mongodb/
- 
-[[redirects]] 
-from = /r/read-from-mongodb 
-to = /read-from-mongodb/
- 
-[[redirects]] 
-from = /python/read-from-mongodb 
-to = /read-from-mongodb/
- 
-[[redirects]] 
-from = /java/read-from-mongodb 
-to = /read-from-mongodb/
- 
-[[redirects]] 
-from = /java/write-to-mongodb 
-to = /write-to-mongodb/
- 
-[[redirects]] 
-from = /scala/write-to-mongodb 
-to = /write-to-mongodb/
- 
-[[redirects]] 
-from = /r/write-to-mongodb 
-to = /write-to-mongodb/
- 
-[[redirects]] 
-from = /python/write-to-mongodb 
-to = /write-to-mongodb/
- 
-[[redirects]] 
-from = /scala/streaming 
-to = /structured-streaming/
- 
-[[redirects]] 
-from = /configuration/write 
-to = /
- 
-[[redirects]] 
-from = /configuration/read 
-to = /
- 
-[[redirects]] 
-from = /write-to-mongodb 
-to = /
- 
-[[redirects]] 
-from = /read-from-mongodb 
-to = /
- 
-[[redirects]] 
-from = /structured-streaming 
-to = /
- 
-[[redirects]] 
-from = /configuration/write 
-to = /batch-mode/batch-write-config/
- 
-[[redirects]] 
-from = /configuration/read 
-to = /batch-mode/batch-read-config/
- 
-[[redirects]] 
-from = /write-to-mongodb 
-to = /batch-mode/batch-write/
- 
-[[redirects]] 
-from = /read-from-mongodb 
-to = /batch-mode/batch-read/
- 
-[[redirects]] 
-from = /structured-streaming 
-to = /streaming-mode/
+##symlink: current -> master
+[[redirects]] from = /current to = / master##raw: ${prefix}/ -> ${base}/current/
+[[redirects]] from = / to = /current/##raw: ${prefix}/stable -> ${base}/current/
+[[redirects]] from = /stable to = /current/##raw: ${prefix}/master -> ${base}/upcoming/
+[[redirects]] from = /master to = /upcoming/##raw: ${prefix}/configuration -> ${base}/current/configuration/
+[[redirects]] from = /configuration to = /current/configuration/##raw: ${prefix}/faq -> ${base}/current/faq/
+[[redirects]] from = /faq to = /current/faq/##raw: ${prefix}/getting-started -> ${base}/current/getting-started/
+[[redirects]] from = /getting-started to = /current/getting-started/##raw: ${prefix}/java-api -> ${base}/v3.0/java-api/
+[[redirects]] from = /java-api to = /v3.0/java-api/##raw: ${prefix}/python-api -> ${base}/v3.0/python-api/
+[[redirects]] from = /python-api to = /v3.0/python-api/##raw: ${prefix}/spark-sql -> ${base}/v3.0/spark-sql/
+[[redirects]] from = /spark-sql to = /v3.0/spark-sql/##raw: ${prefix}/sparkR -> ${base}/v3.0/r-api/
+[[redirects]] from = /sparkR to = /v3.0/r-api/##[*-v1.1]: ${prefix}/${version}/python/write-to-mongodb -> ${base}/${version}/python-api/
+[[redirects]] from = /python/write-to-mongodb to = /python-api/##[*-v1.1]: ${prefix}/${version}/python/read-from-mongodb -> ${base}/${version}/python-api/
+[[redirects]] from = /python/read-from-mongodb to = /python-api/##[*-v1.1]: ${prefix}/${version}/python/aggregation -> ${base}/${version}/python-api/
+[[redirects]] from = /python/aggregation to = /python-api/##[*-v1.1]: ${prefix}/${version}/python/filters-and-sql -> ${base}/${version}/python-api/
+[[redirects]] from = /python/filters-and-sql to = /python-api/##[*-v1.1]: ${prefix}/${version}/scala/write-to-mongodb -> ${base}/${version}/getting-started/
+[[redirects]] from = /scala/write-to-mongodb to = /getting-started/##[*-v1.1]: ${prefix}/${version}/scala/read-from-mongodb -> ${base}/${version}/getting-started/
+[[redirects]] from = /scala/read-from-mongodb to = /getting-started/##[*-v1.1]: ${prefix}/${version}/scala/aggregation -> ${base}/${version}/getting-started/
+[[redirects]] from = /scala/aggregation to = /getting-started/##[*-v1.1]: ${prefix}/${version}/scala/datasets-and-sql -> ${base}/${version}/spark-sql/
+[[redirects]] from = /scala/datasets-and-sql to = /spark-sql/##[*-v1.1]: ${prefix}/${version}/java/write-to-mongodb -> ${base}/${version}/java-api/
+[[redirects]] from = /java/write-to-mongodb to = /java-api/##[*-v1.1]: ${prefix}/${version}/java/read-from-mongodb -> ${base}/${version}/java-api/
+[[redirects]] from = /java/read-from-mongodb to = /java-api/##[*-v1.1]: ${prefix}/${version}/java/aggregation -> ${base}/${version}/java-api/
+[[redirects]] from = /java/aggregation to = /java-api/##[*-v1.1]: ${prefix}/${version}/java/datasets-and-sql -> ${base}/${version}/java-api/
+[[redirects]] from = /java/datasets-and-sql to = /java-api/##[*-v1.1]: ${prefix}/${version}/r/write-to-mongodb -> ${base}/${version}/sparkR/
+[[redirects]] from = /r/write-to-mongodb to = /sparkR/##[*-v1.1]: ${prefix}/${version}/r/read-from-mongodb -> ${base}/${version}/sparkR/
+[[redirects]] from = /r/read-from-mongodb to = /sparkR/##[*-v1.1]: ${prefix}/${version}/r/aggregation -> ${base}/${version}/sparkR/
+[[redirects]] from = /r/aggregation to = /sparkR/##[*-v1.1]: ${prefix}/${version}/r/filters-and-sql -> ${base}/${version}/sparkR/
+[[redirects]] from = /r/filters-and-sql to = /sparkR/##[*-v1.1]: ${prefix}/${version}/scala-api -> ${base}/${version}/getting-started/
+[[redirects]] from = /scala-api to = /getting-started/##[*-v1.1]: ${prefix}/${version}/r-api -> ${base}/${version}/sparkR/
+[[redirects]] from = /r-api to = /sparkR/##(v1.1-v3.0]: ${prefix}/${version}/getting-started -> ${base}/${version}/
+[[redirects]] from = /getting-started to = /##(v1.1-master]: ${prefix}/${version}/spark-sql -> ${base}/${version}/
+[[redirects]] from = /spark-sql to = /##(v1.1-v3.0]: ${prefix}/${version}/sparkR -> ${base}/${version}/r-api/
+[[redirects]] from = /sparkR to = /r-api/##[v10.0-master]: ${prefix}/${version}/sparkR -> ${base}/${version}/
+[[redirects]] from = /sparkR to = /##[*-v2.0]: ${prefix}/${version}/release-notes -> ${base}/${version}/
+[[redirects]] from = /release-notes to = /##[v10.0-master]: ${prefix}/${version}/java-api -> ${base}/${version}/
+[[redirects]] from = /java-api to = /##[v10.0-master]: ${prefix}/${version}/python-api -> ${base}/${version}/
+[[redirects]] from = /python-api to = /##[v10.0-master]: ${prefix}/${version}/r-api -> ${base}/${version}/
+[[redirects]] from = /r-api to = /##[v10.0-master]: ${prefix}/${version}/scala-api -> ${base}/${version}/
+[[redirects]] from = /scala-api to = /##[v10.0-master]: ${prefix}/${version}/python/filters-and-sql -> ${base}/${version}/
+[[redirects]] from = /python/filters-and-sql to = /##[v10.0-master]: ${prefix}/${version}/r/filters-and-sql -> ${base}/${version}/
+[[redirects]] from = /r/filters-and-sql to = /##[v10.0-master]: ${prefix}/${version}/scala/datasets-and-sql -> ${base}/${version}/
+[[redirects]] from = /scala/datasets-and-sql to = /##[v10.0-master]: ${prefix}/${version}/java/datasets-and-sql -> ${base}/${version}/
+[[redirects]] from = /java/datasets-and-sql to = /##[v10.0-master]: ${prefix}/${version}/java/aggregation -> ${base}/${version}/
+[[redirects]] from = /java/aggregation to = /##[v10.0-master]: ${prefix}/${version}/r/aggregation -> ${base}/${version}/
+[[redirects]] from = /r/aggregation to = /##[v10.0-master]: ${prefix}/${version}/python/aggregation -> ${base}/${version}/
+[[redirects]] from = /python/aggregation to = /##[v10.0-master]: ${prefix}/${version}/scala/aggregation -> ${base}/${version}/
+[[redirects]] from = /scala/aggregation to = /##[v10.0-master]: ${prefix}/${version}/scala/read-from-mongodb -> ${base}/${version}/read-from-mongodb/
+[[redirects]] from = /scala/read-from-mongodb to = /read-from-mongodb/##[v10.0-master]: ${prefix}/${version}/r/read-from-mongodb -> ${base}/${version}/read-from-mongodb/
+[[redirects]] from = /r/read-from-mongodb to = /read-from-mongodb/##[v10.0-master]: ${prefix}/${version}/python/read-from-mongodb -> ${base}/${version}/read-from-mongodb/
+[[redirects]] from = /python/read-from-mongodb to = /read-from-mongodb/##[v10.0-master]: ${prefix}/${version}/java/read-from-mongodb -> ${base}/${version}/read-from-mongodb/
+[[redirects]] from = /java/read-from-mongodb to = /read-from-mongodb/##[v10.0-master]: ${prefix}/${version}/java/write-to-mongodb -> ${base}/${version}/write-to-mongodb/
+[[redirects]] from = /java/write-to-mongodb to = /write-to-mongodb/##[v10.0-master]: ${prefix}/${version}/scala/write-to-mongodb -> ${base}/${version}/write-to-mongodb/
+[[redirects]] from = /scala/write-to-mongodb to = /write-to-mongodb/##[v10.0-master]: ${prefix}/${version}/r/write-to-mongodb -> ${base}/${version}/write-to-mongodb/
+[[redirects]] from = /r/write-to-mongodb to = /write-to-mongodb/##[v10.0-master]: ${prefix}/${version}/python/write-to-mongodb -> ${base}/${version}/write-to-mongodb/
+[[redirects]] from = /python/write-to-mongodb to = /write-to-mongodb/##[v10.0-master]: ${prefix}/${version}/scala/streaming -> ${base}/${version}/structured-streaming/
+[[redirects]] from = /scala/streaming to = /structured-streaming/##[*-v3.0]: ${prefix}/${version}/configuration/write -> ${base}/${version}/
+[[redirects]] from = /configuration/write to = /##[*-v3.0]: ${prefix}/${version}/configuration/read -> ${base}/${version}/
+[[redirects]] from = /configuration/read to = /##[*-v3.0]: ${prefix}/${version}/write-to-mongodb -> ${base}/${version}/
+[[redirects]] from = /write-to-mongodb to = /##[*-v3.0]: ${prefix}/${version}/read-from-mongodb -> ${base}/${version}/
+[[redirects]] from = /read-from-mongodb to = /##[*-v3.0]: ${prefix}/${version}/structured-streaming -> ${base}/${version}/
+[[redirects]] from = /structured-streaming to = /##[v10.0-master]: ${prefix}/${version}/configuration/write -> ${base}/${version}/batch-mode/batch-write-config/
+[[redirects]] from = /configuration/write to = /batch-mode/batch-write-config/##[v10.0-master]: ${prefix}/${version}/configuration/read -> ${base}/${version}/batch-mode/batch-read-config/
+[[redirects]] from = /configuration/read to = /batch-mode/batch-read-config/##[v10.0-master]: ${prefix}/${version}/write-to-mongodb -> ${base}/${version}/batch-mode/batch-write/
+[[redirects]] from = /write-to-mongodb to = /batch-mode/batch-write/##[v10.0-master]: ${prefix}/${version}/read-from-mongodb -> ${base}/${version}/batch-mode/batch-read/
+[[redirects]] from = /read-from-mongodb to = /batch-mode/batch-read/##[v10.0-master]: ${prefix}/${version}/structured-streaming -> ${base}/${version}/streaming-mode/
+[[redirects]] from = /structured-streaming to = /streaming-mode/
