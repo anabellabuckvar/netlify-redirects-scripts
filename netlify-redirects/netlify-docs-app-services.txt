@@ -1,0 +1,231 @@
+##raw: ${prefix}/manage-apps/create/template-apps/ -> ${base}/template-apps/
+[[redirects]] from = "/manage-apps/create/template-apps/"to = "/template-apps/"##raw: ${prefix}/manage-apps/create/template-apps/ -> ${base}/template-apps/
+[[redirects]] from = "/manage-apps/create/template-apps/"to = "/template-apps/"##raw: ${prefix}/push-notifications/ -> ${base}/reference/push-notifications/
+[[redirects]] from = "/push-notifications/"to = "/reference/push-notifications/"##raw: ${prefix}/services/ -> ${base}/reference/services/
+[[redirects]] from = "/services/"to = "/reference/services/"##raw: ${prefix}/hosting/upload-content-to-realm/ -> ${base}/hosting/upload-content-to-app-services/
+[[redirects]] from = "/hosting/upload-content-to-realm/"to = "/hosting/upload-content-to-app-services/"##raw: ${prefix}/sync/configure-realm-sync/ -> ${base}/sync/configure-device-sync/
+[[redirects]] from = "/sync/configure-realm-sync/"to = "/sync/configure-device-sync/"##raw: ${prefix}/manage-apps/delete/delete-with-realm-ui/ -> ${base}/manage-apps/delete/delete-with-ui/
+[[redirects]] from = "/manage-apps/delete/delete-with-realm-ui/"to = "/manage-apps/delete/delete-with-ui/"##raw: ${prefix}/manage-apps/configure/export-realm-app/ -> ${base}/manage-apps/configure/export-app/
+[[redirects]] from = "/manage-apps/configure/export-realm-app/"to = "/manage-apps/configure/export-app/"##raw: ${prefix}/manage-apps/configure/update-realm-app/ -> ${base}/manage-apps/configure/update-app/
+[[redirects]] from = "/manage-apps/configure/update-realm-app/"to = "/manage-apps/configure/update-app/"##raw: ${prefix}/manage-apps/configure/copy-realm-app/ -> ${base}/manage-apps/configure/copy-app/
+[[redirects]] from = "/manage-apps/configure/copy-realm-app/"to = "/manage-apps/configure/copy-app/"##raw: ${prefix}/manage-apps/configure/export/export-with-realm-ui/ -> ${base}/manage-apps/configure/export/export-with-ui/
+[[redirects]] from = "/manage-apps/configure/export/export-with-realm-ui/"to = "/manage-apps/configure/export/export-with-ui/"##raw: ${prefix}/manage-apps/create/create-with-realm-ui/ -> ${base}/manage-apps/create/create-with-ui/
+[[redirects]] from = "/manage-apps/create/create-with-realm-ui/"to = "/manage-apps/create/create-with-ui/"##raw: ${prefix}/endpoints -> ${base}/data-api/custom-endpoints/
+[[redirects]] from = "/endpoints"to = "/data-api/custom-endpoints/"##raw: ${prefix}/endpoints/configure -> ${base}/data-api/custom-endpoints/
+[[redirects]] from = "/endpoints/configure"to = "/data-api/custom-endpoints/"##raw: ${prefix}/reference/cli-auth-with-api-token -> ${base}/cli/
+[[redirects]] from = "/reference/cli-auth-with-api-token"to = "/cli/"##raw: ${prefix}/triggers/overview -> ${base}/triggers/
+[[redirects]] from = "/triggers/overview"to = "/triggers/"##raw: ${prefix}/triggers/examples/resume-a-suspended-trigger -> ${base}/triggers/database-triggers/
+[[redirects]] from = "/triggers/examples/resume-a-suspended-trigger"to = "/triggers/database-triggers/"##raw: ${prefix}/triggers/examples/disable-a-trigger -> ${base}/triggers/disable-a-trigger/
+[[redirects]] from = "/triggers/examples/disable-a-trigger"to = "/triggers/disable-a-trigger/"##raw: ${prefix}/triggers/examples/create-a-database-trigger -> ${base}/triggers/database-triggers/
+[[redirects]] from = "/triggers/examples/create-a-database-trigger"to = "/triggers/database-triggers/"##raw: ${prefix}/triggers/examples/create-a-authentication-trigger -> ${base}/triggers/authentication-triggers/
+[[redirects]] from = "/triggers/examples/create-a-authentication-trigger"to = "/triggers/authentication-triggers/"##raw: ${prefix}/triggers/examples/create-a-scheduled-trigger -> ${base}/triggers/scheduled-triggers/
+[[redirects]] from = "/triggers/examples/create-a-scheduled-trigger"to = "/triggers/scheduled-triggers/"##raw: ${prefix}/triggers/examples/send-events-aws-eventbridge -> ${base}/triggers/aws-eventbridge/
+[[redirects]] from = "/triggers/examples/send-events-aws-eventbridge"to = "/triggers/aws-eventbridge/"##raw: ${prefix}/triggers/examples/store-new-users-in-mongodb -> ${base}/triggers/authentication-triggers/
+[[redirects]] from = "/triggers/examples/store-new-users-in-mongodb"to = "/triggers/authentication-triggers/"##raw: ${prefix}/triggers/examples -> ${base}/triggers/
+[[redirects]] from = "/triggers/examples"to = "/triggers/"##raw: ${prefix}/tutorial/jwt -> ${base}/authentication/custom-jwt/
+[[redirects]] from = "/tutorial/jwt"to = "/authentication/custom-jwt/"##raw: ${prefix}/template-apps -> ${base}/reference/template-apps/
+[[redirects]] from = "/template-apps"to = "/reference/template-apps/"##raw: ${prefix}/sync/learn/conflict-resolution -> ${base}/sync/details/conflict-resolution/
+[[redirects]] from = "/sync/learn/conflict-resolution"to = "/sync/details/conflict-resolution/"##raw: ${prefix}/sync/learn/protocol -> ${base}/sync/details/protocol/
+[[redirects]] from = "/sync/learn/protocol"to = "/sync/details/protocol/"##raw: ${prefix}/sync/learn/overview -> ${base}/sync/get-started/
+[[redirects]] from = "/sync/learn/overview"to = "/sync/get-started/"##raw: ${prefix}/sync/learn -> ${base}/sync/
+[[redirects]] from = "/sync/learn"to = "/sync/"##raw: ${prefix}/sync/production-load-testing -> ${base}/sync/go-to-production/production-load-testing/
+[[redirects]] from = "/sync/production-load-testing"to = "/sync/go-to-production/production-load-testing/"##raw: ${prefix}/release-notes/dotnet -> https://github.com/realm/realm-dotnet/releases
+[[redirects]] from = "/release-notes/dotnet"to = "/ https://github.com/realm/realm-dotnet/releases"##raw: ${prefix}/release-notes/java -> https://github.com/realm/realm-java/blob/releases/CHANGELOG.md
+[[redirects]] from = "/release-notes/java"to = "/ https://github.com/realm/realm-java/blob/releases/CHANGELOG.md"##raw: ${prefix}/release-notes/javascript -> https://github.com/realm/realm-js/releases
+[[redirects]] from = "/release-notes/javascript"to = "/ https://github.com/realm/realm-js/releases"##raw: ${prefix}/release-notes/studio -> https://github.com/realm/realm-studio/releases
+[[redirects]] from = "/release-notes/studio"to = "/ https://github.com/realm/realm-studio/releases"##raw: ${prefix}/release-notes/swift -> https://github.com/realm/realm-swift/releases
+[[redirects]] from = "/release-notes/swift"to = "/ https://github.com/realm/realm-swift/releases"##raw: ${prefix}/sync/data-access-patterns/partitions -> ${base}/reference/partition-based-sync/
+[[redirects]] from = "/sync/data-access-patterns/partitions"to = "/reference/partition-based-sync/"##raw: ${prefix}/sync/data-access-patterns/sync-mode -> ${base}/sync/configure/enable-sync/
+[[redirects]] from = "/sync/data-access-patterns/sync-mode"to = "/sync/configure/enable-sync/"##raw: ${prefix}/sync/configure/compact-disk -> ${base}/sync/go-to-production/compact-disk/
+[[redirects]] from = "/sync/configure/compact-disk"to = "/sync/go-to-production/compact-disk/"##raw: ${prefix}/sync/configure/optimize-sync-atlas-usage -> ${base}/sync/go-to-production/optimize-sync-atlas-usage/
+[[redirects]] from = "/sync/configure/optimize-sync-atlas-usage"to = "/sync/go-to-production/optimize-sync-atlas-usage/"##raw: ${prefix}/sync/configure/alter-sync-configuration -> ${base}/sync/configure/enable-sync/
+[[redirects]] from = "/sync/configure/alter-sync-configuration"to = "/sync/configure/enable-sync/"##raw: ${prefix}/sync/configure/queryable-fields -> ${base}/sync/configure/sync-settings/
+[[redirects]] from = "/sync/configure/queryable-fields"to = "/sync/configure/sync-settings/"##raw: ${prefix}/sync/data-model/development-mode -> ${base}/sync/configure/sync-settings/
+[[redirects]] from = "/sync/data-model/development-mode"to = "/sync/configure/sync-settings/"##raw: ${prefix}/sync/data-access-patterns/flexible-sync-permissions-guide -> ${base}/sync/app-builder/flexible-sync-permissions-guide/
+[[redirects]] from = "/sync/data-access-patterns/flexible-sync-permissions-guide"to = "/sync/app-builder/flexible-sync-permissions-guide/"##raw: ${prefix}/sync/data-access-patterns/permissions -> ${base}/sync/configure/permissions/
+[[redirects]] from = "/sync/data-access-patterns/permissions"to = "/sync/configure/permissions/"##raw: ${prefix}/sync/data-access-patterns -> ${base}/sync/configure/sync-settings/
+[[redirects]] from = "/sync/data-access-patterns"to = "/sync/configure/sync-settings/"##raw: ${prefix}/sync/data-access-patterns/flexible-sync -> ${base}/sync/configure/sync-settings/
+[[redirects]] from = "/sync/data-access-patterns/flexible-sync"to = "/sync/configure/sync-settings/"##raw: ${prefix}/sync/data-model/development-mode -> ${base}/sync/configure/sync-settings/
+[[redirects]] from = "/sync/data-model/development-mode"to = "/sync/configure/sync-settings/"##raw: ${prefix}/sync/local-to-sync -> ${base}/sync/app-builder/local-to-sync/
+[[redirects]] from = "/sync/local-to-sync"to = "/sync/app-builder/local-to-sync/"##raw: ${prefix}/sync/configure/flexible-sync-permissions-guide -> ${base}/sync/app-builder/flexible-sync-permissions-guide/
+[[redirects]] from = "/sync/configure/flexible-sync-permissions-guide"to = "/sync/app-builder/flexible-sync-permissions-guide/"##raw: ${prefix}/sync/event-library -> ${base}/sync/app-builder/event-library/
+[[redirects]] from = "/sync/event-library"to = "/sync/app-builder/event-library/"##raw: ${prefix}/migrate -> https://mongodb.com/docs/realm/migrate/
+[[redirects]] from = "/migrate"to = "/ https://mongodb.com/docs/realm/migrate/"##raw: ${prefix}/stitch -> https://mongodb.com/docs/realm/stitch/
+[[redirects]] from = "/stitch"to = "/ https://mongodb.com/docs/realm/stitch/"##raw: ${prefix}/manage-apps/configure/config -> ${base}/reference/config/
+[[redirects]] from = "/manage-apps/configure/config"to = "/reference/config/"##raw: ${prefix}/manage-apps/configure/config/app -> ${base}/reference/config/app/
+[[redirects]] from = "/manage-apps/configure/config/app"to = "/reference/config/app/"##raw: ${prefix}/manage-apps/configure/config/auth -> ${base}/reference/config/auth/
+[[redirects]] from = "/manage-apps/configure/config/auth"to = "/reference/config/auth/"##raw: ${prefix}/manage-apps/configure/config/data_sources -> ${base}/reference/config/data_sources/
+[[redirects]] from = "/manage-apps/configure/config/data_sources"to = "/reference/config/data_sources/"##raw: ${prefix}/manage-apps/configure/config/environments -> ${base}/reference/config/environments/
+[[redirects]] from = "/manage-apps/configure/config/environments"to = "/reference/config/environments/"##raw: ${prefix}/manage-apps/configure/config/functions -> ${base}/reference/config/functions/
+[[redirects]] from = "/manage-apps/configure/config/functions"to = "/reference/config/functions/"##raw: ${prefix}/manage-apps/configure/config/graphql -> ${base}/reference/config/graphql/
+[[redirects]] from = "/manage-apps/configure/config/graphql"to = "/reference/config/graphql/"##raw: ${prefix}/manage-apps/configure/config/hosting -> ${base}/reference/config/hosting/
+[[redirects]] from = "/manage-apps/configure/config/hosting"to = "/reference/config/hosting/"##raw: ${prefix}/manage-apps/configure/config/http_endpoints -> ${base}/reference/config/http_endpoints/
+[[redirects]] from = "/manage-apps/configure/config/http_endpoints"to = "/reference/config/http_endpoints/"##raw: ${prefix}/manage-apps/configure/config/legacy -> ${base}/reference/config/legacy/
+[[redirects]] from = "/manage-apps/configure/config/legacy"to = "/reference/config/legacy/"##raw: ${prefix}/manage-apps/configure/config/log_forwarders -> ${base}/reference/config/log_forwarders/
+[[redirects]] from = "/manage-apps/configure/config/log_forwarders"to = "/reference/config/log_forwarders/"##raw: ${prefix}/manage-apps/configure/config/services -> ${base}/reference/config/services/
+[[redirects]] from = "/manage-apps/configure/config/services"to = "/reference/config/services/"##raw: ${prefix}/manage-apps/configure/config/sync -> ${base}/reference/config/sync/
+[[redirects]] from = "/manage-apps/configure/config/sync"to = "/reference/config/sync/"##raw: ${prefix}/manage-apps/configure/config/template-expansions -> ${base}/reference/config/template-expansions/
+[[redirects]] from = "/manage-apps/configure/config/template-expansions"to = "/reference/config/template-expansions/"##raw: ${prefix}/manage-apps/configure/config/triggers -> ${base}/reference/config/triggers/
+[[redirects]] from = "/manage-apps/configure/config/triggers"to = "/reference/config/triggers/"##raw: ${prefix}/manage-apps/configure/config/values -> ${base}/reference/config/values/
+[[redirects]] from = "/manage-apps/configure/config/values"to = "/reference/config/values/"##raw: ${prefix}/manage-apps/configure -> ${base}/apps/
+[[redirects]] from = "/manage-apps/configure"to = "/apps/"##raw: ${prefix}/manage-apps/deploy -> ${base}/apps/deploy/
+[[redirects]] from = "/manage-apps/deploy"to = "/apps/deploy/"##raw: ${prefix}/manage-apps -> ${base}/apps/
+[[redirects]] from = "/manage-apps"to = "/apps/"##raw: ${prefix}/manage-apps/create -> ${base}/apps/create/
+[[redirects]] from = "/manage-apps/create"to = "/apps/create/"##raw: ${prefix}/manage-apps/create/create-with-api -> ${base}/apps/create/
+[[redirects]] from = "/manage-apps/create/create-with-api"to = "/apps/create/"##raw: ${prefix}/manage-apps/create/create-with-cli -> ${base}/apps/create/
+[[redirects]] from = "/manage-apps/create/create-with-cli"to = "/apps/create/"##raw: ${prefix}/manage-apps/create/create-with-ui -> ${base}/apps/create/
+[[redirects]] from = "/manage-apps/create/create-with-ui"to = "/apps/create/"##raw: ${prefix}/manage-apps/configure/copy-app -> ${base}/apps/copy/
+[[redirects]] from = "/manage-apps/configure/copy-app"to = "/apps/copy/"##raw: ${prefix}/manage-apps/configure/update-app -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/configure/update-app"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/deployment-draft -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/deployment-draft"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/disable-deployment-drafts -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/disable-deployment-drafts"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/manual/deploy-api -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/manual/deploy-api"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/manual/deploy-cli -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/manual/deploy-cli"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/manual/deploy-ui -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/manual/deploy-ui"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/automated -> ${base}/apps/deploy/
+[[redirects]] from = "/manage-apps/deploy/automated"to = "/apps/deploy/"##raw: ${prefix}/manage-apps/deploy/manual -> ${base}/apps/deploy/
+[[redirects]] from = "/manage-apps/deploy/manual"to = "/apps/deploy/"##raw: ${prefix}/manage-apps/deploy/automated/sdlc -> ${base}/apps/cicd/
+[[redirects]] from = "/manage-apps/deploy/automated/sdlc"to = "/apps/cicd/"##raw: ${prefix}/manage-apps/deploy/automated/deploy-automatically-with-github -> ${base}/apps/deploy-github/
+[[redirects]] from = "/manage-apps/deploy/automated/deploy-automatically-with-github"to = "/apps/deploy-github/"##raw: ${prefix}/manage-apps/deploy/deployment-models-and-regions -> ${base}/apps/deployment-models-and-regions/
+[[redirects]] from = "/manage-apps/deploy/deployment-models-and-regions"to = "/apps/deployment-models-and-regions/"##raw: ${prefix}/manage-apps/deploy/manual/rollback-deployment -> ${base}/apps/rollback/
+[[redirects]] from = "/manage-apps/deploy/manual/rollback-deployment"to = "/apps/rollback/"##raw: ${prefix}/manage-apps/delete -> ${base}/apps/delete/
+[[redirects]] from = "/manage-apps/delete"to = "/apps/delete/"##raw: ${prefix}/manage-apps/delete/delete-with-api -> ${base}/apps/delete/
+[[redirects]] from = "/manage-apps/delete/delete-with-api"to = "/apps/delete/"##raw: ${prefix}/manage-apps/delete/delete-with-cli -> ${base}/apps/delete/
+[[redirects]] from = "/manage-apps/delete/delete-with-cli"to = "/apps/delete/"##raw: ${prefix}/manage-apps/delete/delete-with-ui -> ${base}/apps/delete/
+[[redirects]] from = "/manage-apps/delete/delete-with-ui"to = "/apps/delete/"##raw: ${prefix}/manage-apps/configure/export-app -> ${base}/apps/export/
+[[redirects]] from = "/manage-apps/configure/export-app"to = "/apps/export/"##raw: ${prefix}/manage-apps/configure/export/export-with-api -> ${base}/apps/export/
+[[redirects]] from = "/manage-apps/configure/export/export-with-api"to = "/apps/export/"##raw: ${prefix}/manage-apps/configure/export/export-with-cli -> ${base}/apps/export/
+[[redirects]] from = "/manage-apps/configure/export/export-with-cli"to = "/apps/export/"##raw: ${prefix}/manage-apps/configure/export/export-with-ui -> ${base}/apps/export/
+[[redirects]] from = "/manage-apps/configure/export/export-with-ui"to = "/apps/export/"##raw: ${prefix}/manage-apps/configure/change-environments -> ${base}/apps/environment/
+[[redirects]] from = "/manage-apps/configure/change-environments"to = "/apps/environment/"##raw: ${prefix}/manage-apps/configure/environments -> ${base}/apps/environment/
+[[redirects]] from = "/manage-apps/configure/environments"to = "/apps/environment/"##raw: ${prefix}/values-and-secrets/define-environment-values -> ${base}/apps/environment/
+[[redirects]] from = "/values-and-secrets/define-environment-values"to = "/apps/environment/"##raw: ${prefix}/reference/find-your-project-or-app-id -> ${base}/apps/metadata/
+[[redirects]] from = "/reference/find-your-project-or-app-id"to = "/apps/metadata/"##raw: ${prefix}/apps/deploy -> ${base}/apps/
+[[redirects]] from = "/apps/deploy"to = "/apps/"##raw: ${prefix}/authentication/providers -> ${base}/authentication/
+[[redirects]] from = "/authentication/providers"to = "/authentication/"##raw: ${prefix}/authentication -> ${base}/users/
+[[redirects]] from = "/authentication"to = "/users/"##raw: ${prefix}/authentication/user-objects -> ${base}/users/read-metadata/
+[[redirects]] from = "/authentication/user-objects"to = "/users/read-metadata/"##raw: ${prefix}/users/find-and-view -> ${base}/users/read-metadata/
+[[redirects]] from = "/users/find-and-view"to = "/users/read-metadata/"##raw: ${prefix}/users/delete-or-revoke -> ${base}/users/manage/
+[[redirects]] from = "/users/delete-or-revoke"to = "/users/manage/"##raw: ${prefix}/users/enable-custom-user-data -> ${base}/users/custom-metadata/
+[[redirects]] from = "/users/enable-custom-user-data"to = "/users/custom-metadata/"##raw: ${prefix}/users/enable-user-metadata -> ${base}/users/custom-metadata/
+[[redirects]] from = "/users/enable-user-metadata"to = "/users/custom-metadata/"##raw: ${prefix}/apps/secure -> ${base}/security/
+[[redirects]] from = "/apps/secure"to = "/security/"##raw: ${prefix}/mongodb/define-roles-and-permissions -> ${base}/rules/roles/
+[[redirects]] from = "/mongodb/define-roles-and-permissions"to = "/rules/roles/"##raw: ${prefix}/mongodb/filter-incoming-queries -> ${base}/rules/filters/
+[[redirects]] from = "/mongodb/filter-incoming-queries"to = "/rules/filters/"##raw: ${prefix}/alerts -> ${base}/activity/alerts/
+[[redirects]] from = "/alerts"to = "/activity/alerts/"##raw: ${prefix}/logs/forward-logs -> ${base}/activity/forward-logs/
+[[redirects]] from = "/logs/forward-logs"to = "/activity/forward-logs/"##raw: ${prefix}/logs/logs-ui -> ${base}/activity/view-logs/
+[[redirects]] from = "/logs/logs-ui"to = "/activity/view-logs/"##raw: ${prefix}/logs/cli -> ${base}/activity/view-logs/
+[[redirects]] from = "/logs/cli"to = "/activity/view-logs/"##raw: ${prefix}/logs/api -> ${base}/activity/view-logs/
+[[redirects]] from = "/logs/api"to = "/activity/view-logs/"##raw: ${prefix}/reference/authenticate-http-client-requests -> ${base}/data-api/authenticate/
+[[redirects]] from = "/reference/authenticate-http-client-requests"to = "/data-api/authenticate/"##raw: ${prefix}/manage-apps/configure/config -> ${base}/reference/config/
+[[redirects]] from = "/manage-apps/configure/config"to = "/reference/config/"##raw: ${prefix}/manage-apps/configure/config/app -> ${base}/reference/config/app/
+[[redirects]] from = "/manage-apps/configure/config/app"to = "/reference/config/app/"##raw: ${prefix}/manage-apps/configure/config/auth -> ${base}/reference/config/auth/
+[[redirects]] from = "/manage-apps/configure/config/auth"to = "/reference/config/auth/"##raw: ${prefix}/manage-apps/configure/config/data_sources -> ${base}/reference/config/data_sources/
+[[redirects]] from = "/manage-apps/configure/config/data_sources"to = "/reference/config/data_sources/"##raw: ${prefix}/manage-apps/configure/config/environments -> ${base}/reference/config/environments/
+[[redirects]] from = "/manage-apps/configure/config/environments"to = "/reference/config/environments/"##raw: ${prefix}/manage-apps/configure/config/functions -> ${base}/reference/config/functions/
+[[redirects]] from = "/manage-apps/configure/config/functions"to = "/reference/config/functions/"##raw: ${prefix}/manage-apps/configure/config/graphql -> ${base}/reference/config/graphql/
+[[redirects]] from = "/manage-apps/configure/config/graphql"to = "/reference/config/graphql/"##raw: ${prefix}/manage-apps/configure/config/hosting -> ${base}/reference/config/hosting/
+[[redirects]] from = "/manage-apps/configure/config/hosting"to = "/reference/config/hosting/"##raw: ${prefix}/manage-apps/configure/config/http_endpoints -> ${base}/reference/config/http_endpoints/
+[[redirects]] from = "/manage-apps/configure/config/http_endpoints"to = "/reference/config/http_endpoints/"##raw: ${prefix}/manage-apps/configure/config/legacy -> ${base}/reference/config/legacy/
+[[redirects]] from = "/manage-apps/configure/config/legacy"to = "/reference/config/legacy/"##raw: ${prefix}/manage-apps/configure/config/log_forwarders -> ${base}/reference/config/log_forwarders/
+[[redirects]] from = "/manage-apps/configure/config/log_forwarders"to = "/reference/config/log_forwarders/"##raw: ${prefix}/manage-apps/configure/config/services -> ${base}/reference/config/services/
+[[redirects]] from = "/manage-apps/configure/config/services"to = "/reference/config/services/"##raw: ${prefix}/manage-apps/configure/config/sync -> ${base}/reference/config/sync/
+[[redirects]] from = "/manage-apps/configure/config/sync"to = "/reference/config/sync/"##raw: ${prefix}/manage-apps/configure/config/template-expansions -> ${base}/reference/config/template-expansions/
+[[redirects]] from = "/manage-apps/configure/config/template-expansions"to = "/reference/config/template-expansions/"##raw: ${prefix}/manage-apps/configure/config/triggers -> ${base}/reference/config/triggers/
+[[redirects]] from = "/manage-apps/configure/config/triggers"to = "/reference/config/triggers/"##raw: ${prefix}/manage-apps/configure/config/values -> ${base}/reference/config/values/
+[[redirects]] from = "/manage-apps/configure/config/values"to = "/reference/config/values/"##raw: ${prefix}/manage-apps/configure -> ${base}/apps/
+[[redirects]] from = "/manage-apps/configure"to = "/apps/"##raw: ${prefix}/manage-apps/deploy -> ${base}/apps/deploy/
+[[redirects]] from = "/manage-apps/deploy"to = "/apps/deploy/"##raw: ${prefix}/manage-apps -> ${base}/apps/
+[[redirects]] from = "/manage-apps"to = "/apps/"##raw: ${prefix}/manage-apps/create -> ${base}/apps/create/
+[[redirects]] from = "/manage-apps/create"to = "/apps/create/"##raw: ${prefix}/manage-apps/create/create-with-api -> ${base}/apps/create/
+[[redirects]] from = "/manage-apps/create/create-with-api"to = "/apps/create/"##raw: ${prefix}/manage-apps/create/create-with-cli -> ${base}/apps/create/
+[[redirects]] from = "/manage-apps/create/create-with-cli"to = "/apps/create/"##raw: ${prefix}/manage-apps/create/create-with-ui -> ${base}/apps/create/
+[[redirects]] from = "/manage-apps/create/create-with-ui"to = "/apps/create/"##raw: ${prefix}/manage-apps/configure/copy-app -> ${base}/apps/copy/
+[[redirects]] from = "/manage-apps/configure/copy-app"to = "/apps/copy/"##raw: ${prefix}/manage-apps/configure/update-app -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/configure/update-app"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/deployment-draft -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/deployment-draft"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/disable-deployment-drafts -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/disable-deployment-drafts"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/manual/deploy-api -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/manual/deploy-api"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/manual/deploy-cli -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/manual/deploy-cli"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/manual/deploy-ui -> ${base}/apps/update/
+[[redirects]] from = "/manage-apps/deploy/manual/deploy-ui"to = "/apps/update/"##raw: ${prefix}/manage-apps/deploy/automated -> ${base}/apps/deploy/
+[[redirects]] from = "/manage-apps/deploy/automated"to = "/apps/deploy/"##raw: ${prefix}/manage-apps/deploy/manual -> ${base}/apps/deploy/
+[[redirects]] from = "/manage-apps/deploy/manual"to = "/apps/deploy/"##raw: ${prefix}/manage-apps/deploy/automated/sdlc -> ${base}/apps/cicd/
+[[redirects]] from = "/manage-apps/deploy/automated/sdlc"to = "/apps/cicd/"##raw: ${prefix}/manage-apps/deploy/automated/deploy-automatically-with-github -> ${base}/apps/deploy-github/
+[[redirects]] from = "/manage-apps/deploy/automated/deploy-automatically-with-github"to = "/apps/deploy-github/"##raw: ${prefix}/manage-apps/deploy/deployment-models-and-regions -> ${base}/apps/deployment-models-and-regions/
+[[redirects]] from = "/manage-apps/deploy/deployment-models-and-regions"to = "/apps/deployment-models-and-regions/"##raw: ${prefix}/manage-apps/deploy/manual/rollback-deployment -> ${base}/apps/rollback/
+[[redirects]] from = "/manage-apps/deploy/manual/rollback-deployment"to = "/apps/rollback/"##raw: ${prefix}/manage-apps/delete -> ${base}/apps/delete/
+[[redirects]] from = "/manage-apps/delete"to = "/apps/delete/"##raw: ${prefix}/manage-apps/delete/delete-with-api -> ${base}/apps/delete/
+[[redirects]] from = "/manage-apps/delete/delete-with-api"to = "/apps/delete/"##raw: ${prefix}/manage-apps/delete/delete-with-cli -> ${base}/apps/delete/
+[[redirects]] from = "/manage-apps/delete/delete-with-cli"to = "/apps/delete/"##raw: ${prefix}/manage-apps/delete/delete-with-ui -> ${base}/apps/delete/
+[[redirects]] from = "/manage-apps/delete/delete-with-ui"to = "/apps/delete/"##raw: ${prefix}/manage-apps/configure/export-app -> ${base}/apps/export/
+[[redirects]] from = "/manage-apps/configure/export-app"to = "/apps/export/"##raw: ${prefix}/manage-apps/configure/export/export-with-api -> ${base}/apps/export/
+[[redirects]] from = "/manage-apps/configure/export/export-with-api"to = "/apps/export/"##raw: ${prefix}/manage-apps/configure/export/export-with-cli -> ${base}/apps/export/
+[[redirects]] from = "/manage-apps/configure/export/export-with-cli"to = "/apps/export/"##raw: ${prefix}/manage-apps/configure/export/export-with-ui -> ${base}/apps/export/
+[[redirects]] from = "/manage-apps/configure/export/export-with-ui"to = "/apps/export/"##raw: ${prefix}/manage-apps/configure/change-environments -> ${base}/apps/environment/
+[[redirects]] from = "/manage-apps/configure/change-environments"to = "/apps/environment/"##raw: ${prefix}/manage-apps/configure/environments -> ${base}/apps/environment/
+[[redirects]] from = "/manage-apps/configure/environments"to = "/apps/environment/"##raw: ${prefix}/values-and-secrets/define-environment-values -> ${base}/apps/environment/
+[[redirects]] from = "/values-and-secrets/define-environment-values"to = "/apps/environment/"##raw: ${prefix}/reference/find-your-project-or-app-id -> ${base}/apps/metadata/
+[[redirects]] from = "/reference/find-your-project-or-app-id"to = "/apps/metadata/"##raw: ${prefix}/apps/deploy -> ${base}/apps/
+[[redirects]] from = "/apps/deploy"to = "/apps/"##raw: ${prefix}/authentication/providers -> ${base}/authentication/
+[[redirects]] from = "/authentication/providers"to = "/authentication/"##raw: ${prefix}/authentication -> ${base}/users/
+[[redirects]] from = "/authentication"to = "/users/"##raw: ${prefix}/authentication/user-objects -> ${base}/users/read-metadata/
+[[redirects]] from = "/authentication/user-objects"to = "/users/read-metadata/"##raw: ${prefix}/users/find-and-view -> ${base}/users/read-metadata/
+[[redirects]] from = "/users/find-and-view"to = "/users/read-metadata/"##raw: ${prefix}/users/delete-or-revoke -> ${base}/users/manage/
+[[redirects]] from = "/users/delete-or-revoke"to = "/users/manage/"##raw: ${prefix}/users/enable-custom-user-data -> ${base}/users/custom-metadata/
+[[redirects]] from = "/users/enable-custom-user-data"to = "/users/custom-metadata/"##raw: ${prefix}/users/enable-user-metadata -> ${base}/users/custom-metadata/
+[[redirects]] from = "/users/enable-user-metadata"to = "/users/custom-metadata/"##raw: ${prefix}/apps/secure -> ${base}/security/
+[[redirects]] from = "/apps/secure"to = "/security/"##raw: ${prefix}/rules/expressions -> ${base}/rules/
+[[redirects]] from = "/rules/expressions"to = "/rules/"##raw: ${prefix}/rules/examples -> ${base}/rules/
+[[redirects]] from = "/rules/examples"to = "/rules/"##raw: ${prefix}/mongodb/define-roles-and-permissions -> ${base}/rules/roles/
+[[redirects]] from = "/mongodb/define-roles-and-permissions"to = "/rules/roles/"##raw: ${prefix}/mongodb/filter-incoming-queries -> ${base}/rules/filters/
+[[redirects]] from = "/mongodb/filter-incoming-queries"to = "/rules/filters/"##raw: ${prefix}/manage-apps/secure/manage-ip-access -> ${base}/security/network/
+[[redirects]] from = "/manage-apps/secure/manage-ip-access"to = "/security/network/"##raw: ${prefix}/alerts -> ${base}/activity/alerts/
+[[redirects]] from = "/alerts"to = "/activity/alerts/"##raw: ${prefix}/logs/forward-logs -> ${base}/activity/forward-logs/
+[[redirects]] from = "/logs/forward-logs"to = "/activity/forward-logs/"##raw: ${prefix}/logs/logs-ui -> ${base}/activity/view-logs/
+[[redirects]] from = "/logs/logs-ui"to = "/activity/view-logs/"##raw: ${prefix}/logs/cli -> ${base}/activity/view-logs/
+[[redirects]] from = "/logs/cli"to = "/activity/view-logs/"##raw: ${prefix}/logs/api -> ${base}/activity/view-logs/
+[[redirects]] from = "/logs/api"to = "/activity/view-logs/"##raw: ${prefix}/sync/app-builder/flexible-sync-permissions-guide -> ${base}/sync/app-builder/device-sync-permissions-guide/
+[[redirects]] from = "/sync/app-builder/flexible-sync-permissions-guide"to = "/sync/app-builder/device-sync-permissions-guide/"##raw: ${prefix}/sync/configure/permissions -> ${base}/rules/roles/
+[[redirects]] from = "/sync/configure/permissions"to = "/rules/roles/"##raw: ${prefix}/cli/realm-cli-reference-v1 -> ${base}/cli/realm-cli-reference-v1/index/
+[[redirects]] from = "/cli/realm-cli-reference-v1"to = "/cli/realm-cli-reference-v1/index/"##raw: docs/atlas/app-servicesAtlas%20App%20Services -> ${base}/
+[[redirects]] from = "/Atlas%20App%20Services"to = "/"##raw: ${prefix}/manage-apps/secure -> ${base}/security/
+[[redirects]] from = "/manage-apps/secure"to = "/security/"##raw: ${prefix}/sync/app-builder/tiered-device-sync/index -> ${base}/edge-server/
+[[redirects]] from = "/sync/app-builder/tiered-device-sync/index"to = "/edge-server/"##raw: ${prefix}/sync/app-builder/edge-server/ -> ${base}/edge-server/
+[[redirects]] from = "/sync/app-builder/edge-server/"to = "/edge-server/"##raw: ${prefix}/cli/realm-cli-accessList-create -> ${base}/realm-cli/v2/realm-cli-accessList-create/
+[[redirects]] from = "/cli/realm-cli-accessList-create"to = "/realm-cli/v2/realm-cli-accessList-create/"##raw: ${prefix}/cli/realm-cli-accessList-delete -> ${base}/realm-cli/v2/realm-cli-accessList-delete/
+[[redirects]] from = "/cli/realm-cli-accessList-delete"to = "/realm-cli/v2/realm-cli-accessList-delete/"##raw: ${prefix}/cli/realm-cli-accessList-list -> ${base}/realm-cli/v2/realm-cli-accessList-list/
+[[redirects]] from = "/cli/realm-cli-accessList-list"to = "/realm-cli/v2/realm-cli-accessList-list/"##raw: ${prefix}/cli/realm-cli-accessList-update -> ${base}/realm-cli/v2/realm-cli-accessList-update/
+[[redirects]] from = "/cli/realm-cli-accessList-update"to = "/realm-cli/v2/realm-cli-accessList-update/"##raw: ${prefix}/cli/realm-cli-accessList -> ${base}/realm-cli/v2/realm-cli-accessList/
+[[redirects]] from = "/cli/realm-cli-accessList"to = "/realm-cli/v2/realm-cli-accessList/"##raw: ${prefix}/cli/realm-cli-apps-create -> ${base}/realm-cli/v2/realm-cli-apps-create/
+[[redirects]] from = "/cli/realm-cli-apps-create"to = "/realm-cli/v2/realm-cli-apps-create/"##raw: ${prefix}/cli/realm-cli-apps-delete -> ${base}/realm-cli/v2/realm-cli-apps-delete/
+[[redirects]] from = "/cli/realm-cli-apps-delete"to = "/realm-cli/v2/realm-cli-apps-delete/"##raw: ${prefix}/cli/realm-cli-apps-describe -> ${base}/realm-cli/v2/realm-cli-apps-describe/
+[[redirects]] from = "/cli/realm-cli-apps-describe"to = "/realm-cli/v2/realm-cli-apps-describe/"##raw: ${prefix}/cli/realm-cli-apps-diff -> ${base}/realm-cli/v2/realm-cli-apps-diff/
+[[redirects]] from = "/cli/realm-cli-apps-diff"to = "/realm-cli/v2/realm-cli-apps-diff/"##raw: ${prefix}/cli/realm-cli-apps-init -> ${base}/realm-cli/v2/realm-cli-apps-init/
+[[redirects]] from = "/cli/realm-cli-apps-init"to = "/realm-cli/v2/realm-cli-apps-init/"##raw: ${prefix}/cli/realm-cli-apps-list -> ${base}/realm-cli/v2/realm-cli-apps-list/
+[[redirects]] from = "/cli/realm-cli-apps-list"to = "/realm-cli/v2/realm-cli-apps-list/"##raw: ${prefix}/cli/realm-cli-apps -> ${base}/realm-cli/v2/realm-cli-apps/
+[[redirects]] from = "/cli/realm-cli-apps"to = "/realm-cli/v2/realm-cli-apps/"##raw: ${prefix}/cli/realm-cli-function-run -> ${base}/realm-cli/v2/realm-cli-function-run/
+[[redirects]] from = "/cli/realm-cli-function-run"to = "/realm-cli/v2/realm-cli-function-run/"##raw: ${prefix}/cli/realm-cli-function -> ${base}/realm-cli/v2/realm-cli-function/
+[[redirects]] from = "/cli/realm-cli-function"to = "/realm-cli/v2/realm-cli-function/"##raw: ${prefix}/cli/realm-cli-login -> ${base}/realm-cli/v2/realm-cli-login/
+[[redirects]] from = "/cli/realm-cli-login"to = "/realm-cli/v2/realm-cli-login/"##raw: ${prefix}/cli/realm-cli-logout -> ${base}/realm-cli/v2/realm-cli-logout/
+[[redirects]] from = "/cli/realm-cli-logout"to = "/realm-cli/v2/realm-cli-logout/"##raw: ${prefix}/cli/realm-cli-logs-list -> ${base}/realm-cli/v2/realm-cli-logs-list/
+[[redirects]] from = "/cli/realm-cli-logs-list"to = "/realm-cli/v2/realm-cli-logs-list/"##raw: ${prefix}/cli/realm-cli-logs -> ${base}/realm-cli/v2/realm-cli-logs/
+[[redirects]] from = "/cli/realm-cli-logs"to = "/realm-cli/v2/realm-cli-logs/"##raw: ${prefix}/cli/realm-cli-pull -> ${base}/realm-cli/v2/realm-cli-pull/
+[[redirects]] from = "/cli/realm-cli-pull"to = "/realm-cli/v2/realm-cli-pull/"##raw: ${prefix}/cli/realm-cli-push -> ${base}/realm-cli/v2/realm-cli-push/
+[[redirects]] from = "/cli/realm-cli-push"to = "/realm-cli/v2/realm-cli-push/"##raw: ${prefix}/cli/realm-cli-schema-datamodels -> ${base}/realm-cli/v2/realm-cli-schema-datamodels/
+[[redirects]] from = "/cli/realm-cli-schema-datamodels"to = "/realm-cli/v2/realm-cli-schema-datamodels/"##raw: ${prefix}/cli/realm-cli-schema -> ${base}/realm-cli/v2/realm-cli-schema/
+[[redirects]] from = "/cli/realm-cli-schema"to = "/realm-cli/v2/realm-cli-schema/"##raw: ${prefix}/cli/realm-cli-secrets-create -> ${base}/realm-cli/v2/realm-cli-secrets-create/
+[[redirects]] from = "/cli/realm-cli-secrets-create"to = "/realm-cli/v2/realm-cli-secrets-create/"##raw: ${prefix}/cli/realm-cli-secrets-delete -> ${base}/realm-cli/v2/realm-cli-secrets-delete/
+[[redirects]] from = "/cli/realm-cli-secrets-delete"to = "/realm-cli/v2/realm-cli-secrets-delete/"##raw: ${prefix}/cli/realm-cli-secrets-list -> ${base}/realm-cli/v2/realm-cli-secrets-list/
+[[redirects]] from = "/cli/realm-cli-secrets-list"to = "/realm-cli/v2/realm-cli-secrets-list/"##raw: ${prefix}/cli/realm-cli-secrets-update -> ${base}/realm-cli/v2/realm-cli-secrets-update/
+[[redirects]] from = "/cli/realm-cli-secrets-update"to = "/realm-cli/v2/realm-cli-secrets-update/"##raw: ${prefix}/cli/realm-cli-secrets -> ${base}/realm-cli/v2/realm-cli-secrets/
+[[redirects]] from = "/cli/realm-cli-secrets"to = "/realm-cli/v2/realm-cli-secrets/"##raw: ${prefix}/cli/realm-cli-users-create -> ${base}/realm-cli/v2/realm-cli-users-create/
+[[redirects]] from = "/cli/realm-cli-users-create"to = "/realm-cli/v2/realm-cli-users-create/"##raw: ${prefix}/cli/realm-cli-users-delete -> ${base}/realm-cli/v2/realm-cli-users-delete/
+[[redirects]] from = "/cli/realm-cli-users-delete"to = "/realm-cli/v2/realm-cli-users-delete/"##raw: ${prefix}/cli/realm-cli-users-disable -> ${base}/realm-cli/v2/realm-cli-users-disable/
+[[redirects]] from = "/cli/realm-cli-users-disable"to = "/realm-cli/v2/realm-cli-users-disable/"##raw: ${prefix}/cli/realm-cli-users-enable -> ${base}/realm-cli/v2/realm-cli-users-enable/
+[[redirects]] from = "/cli/realm-cli-users-enable"to = "/realm-cli/v2/realm-cli-users-enable/"##raw: ${prefix}/cli/realm-cli-users-list -> ${base}/realm-cli/v2/realm-cli-users-list/
+[[redirects]] from = "/cli/realm-cli-users-list"to = "/realm-cli/v2/realm-cli-users-list/"##raw: ${prefix}/cli/realm-cli-users-revoke -> ${base}/realm-cli/v2/realm-cli-users-revoke/
+[[redirects]] from = "/cli/realm-cli-users-revoke"to = "/realm-cli/v2/realm-cli-users-revoke/"##raw: ${prefix}/cli/realm-cli-users -> ${base}/realm-cli/v2/realm-cli-users/
+[[redirects]] from = "/cli/realm-cli-users"to = "/realm-cli/v2/realm-cli-users/"##raw: ${prefix}/cli/realm-cli-whoami -> ${base}/realm-cli/v2/realm-cli-whoami/
+[[redirects]] from = "/cli/realm-cli-whoami"to = "/realm-cli/v2/realm-cli-whoami/"##raw: ${prefix}/cli/realm-cli-reference-v1 -> ${base}/realm-cli/v1/
+[[redirects]] from = "/cli/realm-cli-reference-v1"to = "/realm-cli/v1/"##raw: ${prefix}/cli/realm-cli-reference-v1/index -> ${base}/realm-cli/v1/
+[[redirects]] from = "/cli/realm-cli-reference-v1/index"to = "/realm-cli/v1/"##raw: ${prefix}/get-started -> ${base}/tutorials/
+[[redirects]] from = "/get-started"to = "/tutorials/"

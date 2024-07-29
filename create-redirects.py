@@ -16,9 +16,11 @@ def transform(rule: str) -> str:
         rule = rule.split(BASE)[1]
     elif not rule.find("${prefix}") == -1:
         rule = rule.split("${prefix}")[1]
-    # remove base if in rule
+
+    # remove base if in path
     if rule.startswith(" ${base}"):
         rule = rule.split(" ${base}")[1]
+
     # remove version if in path
     if rule.startswith("/${version}"):
         rule = rule.split("/${version}")[1]
@@ -35,7 +37,7 @@ def main() -> None:
         for line in f.read().split("\n"):
             line.split("->", 1)
             rule = line.split("->", 1)
-            if len(rule) >1: 
+            if (len(rule) > 1) & (not rule[0].startswith("#")): 
                 rules.append((rule[0].split(None, 1)[1], rule[1]))
                 comment.append("##"+line)
                     
@@ -44,10 +46,11 @@ def main() -> None:
 
     for index, rule in enumerate(rules):
         ##transform source and destination paths
-        rule_from = transform(rule[0]) 
-        rule_to = transform(rule[1])
+        rule_from = transform(rule[0]).strip()
+        rule_to = transform(rule[1]).strip()
 
-        output_rules.append(comment[index] +"\n[[redirects]] \rfrom = "+ rule_from + "\rto = "+ rule_to + "\r\r")
+        ##add comment, from and to keyword, quotes, line separation
+        output_rules.append(comment[index] +"\n[[redirects]] \rfrom = \""+ rule_from + "\"\rto = \""+ rule_to + "\"\r\r")
 
 
 
