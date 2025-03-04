@@ -1,62 +1,35 @@
 import sys
-
- ## name of the txt file to run script on, ex: "spark-connector.txt"
-SOURCE_FILENAME = sys.argv[1] 
-## base path for given propertydocs/spark-connector
-BASE = sys.argv[2] 
-SOURCE_FILE = './mut-redirects/'+SOURCE_FILENAME
-DESTINATION_FILE = "./netlify-redirects/netlify-"+SOURCE_FILENAME
-
-
-
-
-def transform(rule: str) -> str:
-    ##remove either the explicit prefix or the prefix representation from source path
-    if not rule.find(BASE) == -1:
-        rule = rule.split(BASE)[1]
-    elif not rule.find("${prefix}") == -1:
-        rule = rule.split("${prefix}")[1]
-
-    # remove base if in path
-    if rule.startswith(" ${base}"):
-        rule = rule.split(" ${base}")[1]
-
-    # remove version if in path
-    if rule.startswith("/${version}"):
-        rule = rule.split("/${version}")[1]
-
-    if not rule.startswith("/"):
-        rule = "/"+rule
-    return rule
+import boto3
 
 
 def main() -> None:
-    with open(SOURCE_FILE, "r") as f:
-        rules = []
-        comment = []
-        for line in f.read().split("\n"):
-            line.split("->", 1)
-            rule = line.split("->", 1)
-            if (len(rule) > 1) & (not rule[0].startswith("#")): 
-                rules.append((rule[0].split(None, 1)[1], rule[1]))
-                comment.append("##"+line)
-                    
+    source_file = sys.argv[1]
+    from_base = "https://www.mongodb.com"
+
+    with open(source_file, "r") as f:
+        rules = [
+            (rule[0], rule[1])
+            for rule in (line.split(None, 1) for line in f.read().split("\n"))
+            if rule
+        ]
 
     output_rules = []
 
-    for index, rule in enumerate(rules):
-        ##transform source and destination paths
-        rule_from = transform(rule[0]).strip()
-        rule_to = transform(rule[1]).strip()
+    for rule_from, rule_to in rules:
+        assert rule_from.startswith(from_base), rule_from
 
-        ##add comment, from and to keyword, quotes, line separation
-        output_rules.append(comment[index] +"\n[[redirects]] \rfrom = \""+ rule_from + "\"\rto = \""+ rule_to + "\"\r\r")
+        rule_from = rule_from.replace(from_base, "")
+        rule_from = rule_from.lstrip("/")
+        if not rule_from.endswith("/index.html"):
+            rule_from = rule_from.rstrip("/") + "/index.html"
+        output_rules.append((rule_from, rule_to))
+        print(f"raw: {rule_from} -> {rule_to}")
 
+    s3 = boto3.session.Session().resource("s3").Bucket(sys.argv[2])
 
-
-    with open(DESTINATION_FILE, "w") as f:
-        f.write("".join(output_rules))
-
+    for rule_from, rule_to in output_rules:
+        obj = s3.Object(rule_from)
+        obj.put(WebsiteRedirectLocation=rule_to)
 
 
 if __name__ == "__main__":
